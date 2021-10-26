@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Inter-Regular';
+	src: url(../fonts/Inter-Regular.ttf) format("ttf");
+	src: url(../fonts/Inter-Regular.otf) format("otf");
+	src: url(../fonts/Inter-Regular.woff) format("woff");
+	src: url(../fonts/Inter-Regular.woff2) format("woff2");
+  }
+
+.intro__text {
+	font-family: 'Inter-Regular';
+	margin: 0;
+	max-width: 690px;
+	font-size: 16px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 26px;
+	margin-bottom: 33px;
+}
+
+@media screen and (max-width: 320px) {
+	.intro__text {
+		max-width: 288px;
+		margin-bottom: 34px;
+	}
+}

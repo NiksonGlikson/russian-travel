@@ -1,0 +1,15 @@
+.logo {
+	margin-top: 26px;
+	background-image: url(../../sprint-3-images/header-logo.svg);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-width: 176px;
+	width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+	.logo {
+		max-width: 142px;
+	}
+}

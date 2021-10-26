@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Inter-Regular';
+  src: url(../fonts/Inter-Regular.ttf) format("ttf");
+  src: url(../fonts/Inter-Regular.otf) format("otf");
+  src: url(../fonts/Inter-Regular.woff) format("woff");
+  src: url(../fonts/Inter-Regular.woff2) format("woff2");
+}
+
+.cover__subtitle {
+	font-family: 'Inter-Regular';
+	max-width: 360px;
+	margin: 0 auto 0 auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+	text-align: center;
+	position: relative;
+}
+
+@media screen and (max-width: 320px) {
+	.cover__subtitle {
+		font-size: 14px;
+		line-height: 16px;
+	}
+}

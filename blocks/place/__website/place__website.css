@@ -1,0 +1,12 @@
+.place__website {
+	color: #ffffff;
+	text-decoration: none;
+	align-self: end;
+}
+
+@media screen and (max-width: 320px) {
+	.place__website {
+		grid-row-start: 2;
+		margin: 0 16px 0 16px;
+	}
+}

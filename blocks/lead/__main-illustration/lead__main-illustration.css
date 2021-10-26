@@ -1,0 +1,20 @@
+.lead__main-illustration {
+	max-width: 984px;
+	width: 100%;
+	border-radius: 0px;
+	object-fit: cover;
+	display: block;
+	margin: auto;
+}
+
+@media screen and (max-width: 1024px) {
+	.lead__main-illustration {
+		max-width: 928px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.lead__main-illustration {
+		max-width: 768px;
+	}
+}

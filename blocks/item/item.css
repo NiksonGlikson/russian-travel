@@ -1,0 +1,26 @@
+.item {
+	object-fit: cover;
+	min-height: 213px;
+	max-width: 284px;
+}
+
+@media screen and (max-width: 1024px) {
+	.item {
+		max-width: 300px;
+		min-height: 225px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.item {
+		max-width: 352px;
+		min-height: 264px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.item {
+		max-width: 288px;
+		min-height: 216px;
+	}
+}
