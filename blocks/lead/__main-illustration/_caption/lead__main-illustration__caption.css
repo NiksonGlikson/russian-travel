@@ -6,7 +6,7 @@
 	src: url(../fonts/Inter-Regular.woff2) format("woff2");
   }
 
-.lead__main-illustration__caption {
+.lead__main-illustration_caption {
 	font-family: 'Inter-Regular';
 	margin: 8px 0 0 148px;
 	font-size: 10px;
@@ -18,19 +18,19 @@
 }
 
 @media screen and (max-width: 1024px) {
-	.lead__main-illustration__caption {
+	.lead__main-illustration_caption {
 		margin: 8px 0 0 48px;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.lead__main-illustratio__caption {
+	.lead__main-illustratio_caption {
 		margin: 8px 0 0 24px;
 	}
 }
 
 @media screen and (max-width: 768px) {
-	.lead__main-illustration__caption {
+	.lead__main-illustration_caption {
 		margin: 8px 0 0 16px;
 	}
 }

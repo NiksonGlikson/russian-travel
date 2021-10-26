@@ -6,7 +6,7 @@
 	src: url(../fonts/Inter-Regular.woff2) format("woff2");
   }
 
-.lang-link__underline {
+.lang-link_underline {
 	font-family: 'Inter-Regular';
 	color: white;
 	margin-right: 18px;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (max-width: 320px) {
-	.lang-link__underline {
+	.lang-link_underline {
 		font-size: 18px;
 		line-height: 20px;
 		}
