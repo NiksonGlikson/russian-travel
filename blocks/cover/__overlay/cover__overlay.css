@@ -1,15 +1,14 @@
 .cover__overlay {
-	display: block;
-	max-width: 1184px;
-  width: 100vw;
-  min-height: 740px;
-  background-image: url(../../../sprint-3-images/cover-trains.jpg);
-  background-size: cover;
-	background-position: center;
-	margin: 0 auto;
-  background-repeat: no-repeat;
-	position: relative;
-	text-decoration: none;
+		display: block;
+		max-width: 1184px;
+		min-height: 740px;
+		background-image: url(../../../sprint-3-images/cover-trains.jpg);
+		background-size: cover;
+		background-position: center;
+		margin: 0 auto;
+		background-repeat: no-repeat;
+		position: relative;
+		text-decoration: none;
 } 
 
 @media screen and (max-width: 1024px) {

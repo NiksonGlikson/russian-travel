@@ -1,17 +1,9 @@
-@font-face {
-  font-family: 'Inter-Regular';
-  src: url(../fonts/Inter-Regular.ttf) format("ttf");
-  src: url(../fonts/Inter-Regular.otf) format("otf");
-  src: url(../fonts/Inter-Regular.woff) format("woff");
-  src: url(../fonts/Inter-Regular.woff2) format("woff2");
-}
-
 .cover__subtitle {
-	font-family: 'Inter-Regular';
+	font-family: Inter, Arial, sans-serif;;
 	max-width: 360px;
 	margin: 0 auto 0 auto;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #ffffff;

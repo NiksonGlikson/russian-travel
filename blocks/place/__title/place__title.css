@@ -1,13 +1,5 @@
-@font-face {
-	font-family: 'Inter-Black';
-	src: url(../fonts/Inter-Black.ttf) format("ttf");
-	src: url(../fonts/Inter-Black.otf) format("otf");
-	src: url(../fonts/Inter-Black.woff) format("woff");
-	src: url(../fonts/Inter-Black.woff2) format("woff2");
-  }
-
 .place__title {
-	font-family: 'Inter-Black';
+	font-family: Inter, Arial, sans-serif;;
 	margin: 0;
 	font-size: 72px;
 	font-style: normal;

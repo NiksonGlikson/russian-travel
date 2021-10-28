@@ -1,16 +1,8 @@
-@font-face {
-	font-family: 'Inter-Regular';
-	src: url(../fonts/Inter-Regular.ttf) format("ttf");
-	src: url(../fonts/Inter-Regular.otf) format("otf");
-	src: url(../fonts/Inter-Regular.woff) format("woff");
-	src: url(../fonts/Inter-Regular.woff2) format("woff2");
-  }
-
 .footer__copyright {
 	margin: 0;
-	font-family: 'Inter-Regular';
+	font-family: Inter, Arial, sans-serif;;
 	font-style: normal;
-	font-weight: normal;
+	font-weight: 400;
 	font-size: 14px;
 	line-height: 16px;
 }
