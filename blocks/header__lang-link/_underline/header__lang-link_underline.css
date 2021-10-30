@@ -1,0 +1,10 @@
+.header__lang-link_underline {
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 320px) {
+	.header__lang-link_underline {
+		font-size: 18px;
+		line-height: 20px;
+		}
+}

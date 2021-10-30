@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 48px 0 48px;
-	padding-bottom: 24px;
 	padding-top: 92px;
 }
 
@@ -12,9 +11,10 @@
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 675px) {
 	.footer {
 		margin: 0;
-		display: inline;
+		flex-direction: column;
+		padding-top: 64px;
 	}
 }

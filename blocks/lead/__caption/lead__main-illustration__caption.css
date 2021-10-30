@@ -7,6 +7,7 @@
 	line-height: 14px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
+	max-width: 160px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -21,7 +22,7 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 320px) {
 	.lead__main-illustration__caption {
 		margin: 8px 0 0 16px;
 	}

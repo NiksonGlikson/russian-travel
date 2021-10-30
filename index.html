@@ -6,17 +6,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Путешествия по России</title>
-  <link rel="stylesheet" href="./styles/index.css">
-  <link rel="stylesheet" href="./styles/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
 
 <body>
   <div class="page">
     <header class="header">
       <div class="logo"></div>
-      <div class="lang-links">
-        <a class="lang-link lang-link_underline" href="#">Ru</a>
-        <a class="lang-link" href="#">En</a>
+      <div class="header__lang-links">
+        <a class="header__lang-link header__lang-link_underline" href="#">Ru</a>
+        <a class="header__lang-link" href="#">En</a>
       </div>
     </header>
 
@@ -27,7 +26,7 @@
         <div class="lead__items">
           <img class="lead__main-illustration" src="sprint-3-images/lead-polka.jpg"
             alt="Человек спит на полке в поезде">
-          <p class="lead__main-illustration lead__main-illustration_caption">ваша полка — верхняя</p>
+          <p class="lead__main-illustration lead__main-illustration__caption">ваша полка — верхняя</p>
         </div>
       </section>
 
@@ -64,15 +63,13 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img class="place__image" src="sprint-3-images/place-kosa.jpg" alt="Куршская коса">
-          <ul class="place__website">
-            <li>
-              <h3 class="place__url-heading">URL</h3>
-            </li>
-            <li><a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a></li>
-          </ul>
+          <div class="place__website">
+            <h3 class="place__url-heading">URL</h3>
+            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+          </div>
           <div class="place__paragraphs">
             <p class="place__paragraph">Здесь, посреди лесов и песчаных дюн, вы сможете увидеть два водных горизонта —
               спокойного Куршского залива с одной стороны и подёрнутого рябью волн Балтийского моря с другой. Уникальная
@@ -82,9 +79,9 @@
               россыпи небольших приморских городов. Атмосфера здешних мест исключает суету, окуная в спокойствие природы
               и запах стального, прохладного моря.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img class="place__image" src="sprint-3-images/place-kolsky.jpg" alt="Кольский">
           <ul class="place__website">
@@ -102,9 +99,9 @@
               Возможно, вы не интересовались пронизывающей земную кору сверхглубокой скважиной, а от апатитов вас давно
               накрывает апатия. Но ваша мечта увидеть северное сияние начинает сбываться с билетом в Мурманск.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img class="place__image" src="sprint-3-images/place-altai.jpg" alt="Алтай">
           <ul class="place__website">
@@ -122,9 +119,9 @@
               всё разнообразие местной флоры и фауны. По лесам Алтая бродят лоси, над хребтами летают орлы, а на
               равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img class="place__image" src="sprint-3-images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <ul class="place__website">
@@ -141,9 +138,9 @@
               как можно бóльшую скорость на льду. В марте 2019 года на фестивале «Байкальская миля» был поставлен
               мировой рекорд — 197.011 км/ч.</p>
           </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img class="place__image" src="sprint-3-images/place-karelia.jpg" alt="Карелия">
           <ul class="place__website">
@@ -160,7 +157,7 @@
               девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья в паре метров от
               земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
@@ -174,13 +171,13 @@
     </main>
 
     <footer class="footer">
-      <div class="footer__links">
+      <nav class="footer__links">
         <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
         <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
         <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
         <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
         <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
-      </div>
+      </nav>
 
       <p class="footer__copyright">&copy;2021. Глинкин Никита</p>
 
