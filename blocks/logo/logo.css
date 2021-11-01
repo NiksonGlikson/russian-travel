@@ -12,5 +12,6 @@
 	.logo {
 		margin-top: 16px;
 		max-width: 142px;
+		min-height: 42px;
 	}
 }
